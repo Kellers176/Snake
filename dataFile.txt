@@ -1,0 +1,13 @@
+"..\\..\\shared\\assets\\";
+"..\\midtermProjectSnake\\grid.png";
+"..\\midtermProjectSnake\\snake.png";
+"..\\midtermProjectSnake\\wall.png";
+"..\\midtermProjectSnake\\powerUp.png";
+"..\\midtermProjectSnake\\powerDown.png";
+"..\\midtermProjectSnake\\bonusPoints.png";
+"..\\midtermProjectSnake\\snakeBody.png";
+"Woods.png";
+"smurf_sprites.png";
+"dean_sprites.png";
+"..\\midtermProjectSnake\\food.png";
+"cour.ttf";
