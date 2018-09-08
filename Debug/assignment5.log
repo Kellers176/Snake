@@ -1,0 +1,24 @@
+﻿  Collider.cpp
+  Food.cpp
+  FoodManager.cpp
+  Game.cpp
+e:\arch\kelly.herstine\midtermprojectsnake\game.cpp(48): warning C4018: '<': signed/unsigned mismatch
+  GraphicsBufferManager.cpp
+  InputTranslator.cpp
+  Grid.cpp
+  GridManager.cpp
+  Level.cpp
+  LevelManager.cpp
+  main.cpp
+  PowerUp.cpp
+  Snake.cpp
+e:\arch\kelly.herstine\midtermprojectsnake\snake.cpp(16): warning C4018: '<': signed/unsigned mismatch
+e:\arch\kelly.herstine\midtermprojectsnake\snake.cpp(30): warning C4018: '<': signed/unsigned mismatch
+e:\arch\kelly.herstine\midtermprojectsnake\snake.cpp(73): warning C4018: '<': signed/unsigned mismatch
+e:\arch\kelly.herstine\midtermprojectsnake\snake.cpp(96): warning C4018: '<': signed/unsigned mismatch
+  Unit.cpp
+  UnitManager.cpp
+  Wall.cpp
+  WallManager.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'GraphicsLib.lib'

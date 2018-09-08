@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{01367b4a-33b6-421a-b440-2803a5ea8760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen">
+      <UniqueIdentifier>{5c9daac2-25df-4b82-8616-0dd3b37e99af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{c38b63ac-8b19-488b-a407-52569d5392d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen">
+      <UniqueIdentifier>{5ab5ee1f-cd7e-4a48-8b35-29a337c2717f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events\KeyEvents">
+      <UniqueIdentifier>{db15715e-631a-421c-8cd9-d9f5292c8926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EventsManager">
+      <UniqueIdentifier>{544bf0ed-f4ba-4a95-8b81-bc2a5bf2d6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events\KeyEvents">
+      <UniqueIdentifier>{3c2c535a-7f57-49b2-9d6e-8f33a3008403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventManagers">
+      <UniqueIdentifier>{11efc993-a69b-4a19-9a90-91ebe2199980}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddUnitEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteUnitEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsBuffer.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsLib.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="InstantiateEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="StopEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="TempStopEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="UpArrowEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftArrowEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveDownEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLeftEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRightEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveUpEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="RightArrowEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="DownArrowEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\EventManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListener.cpp">
+      <Filter>Source Files\EventManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>Source Files\EventManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Source Files\EventManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="NextLevelEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceBarEvent.cpp">
+      <Filter>Source Files\Events\KeyEvents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PauseEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsBuffer.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsLib.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="InstantiateEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="StopEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="TempStopEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveUpEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveDownEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLeftEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRightEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftArrowEvent.h">
+      <Filter>Header Files\Events\KeyEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="UpArrowEvent.h">
+      <Filter>Header Files\Events\KeyEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="RightArrowEvent.h">
+      <Filter>Header Files\Events\KeyEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Header Files\EventsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\EventsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>Header Files\EventsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Header Files\EventsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeleteUnitEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="AddUnitEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapeEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DownArrowEvent.h">
+      <Filter>Header Files\Events\KeyEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceBarEvent.h">
+      <Filter>Header Files\Events\KeyEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="NextLevelEvent.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
